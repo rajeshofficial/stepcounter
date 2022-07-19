@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "663091106455",
+    "project_id": "step-counter-1655717123351",
+    "storage_bucket": "step-counter-1655717123351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663091106455:android:428bb03cf9a3f6ad258fd2",
+        "android_client_info": {
+          "package_name": "com.jetpack.stepcounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663091106455-rvu9ag8scn30itej7q49n8udv8nrgpj7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jetpack.stepcounter",
+            "certificate_hash": "1528b76582761b62a9b63c93158b966329f9dab4"
+          }
+        },
+        {
+          "client_id": "663091106455-vlqqkb1e6pc2assd5ilce7mp1q4qcgm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jetpack.stepcounter",
+            "certificate_hash": "4758ebfab1523274bc9cd417249b87402c2881f0"
+          }
+        },
+        {
+          "client_id": "663091106455-er4rgpnd0odpl6pbrdhrd0fvmrtbs0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjSLoaFe8hwVV-t5uebEid-I515g3FR_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663091106455-er4rgpnd0odpl6pbrdhrd0fvmrtbs0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

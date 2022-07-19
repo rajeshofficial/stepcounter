@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Step Counter</string>
+    <string name="permission_denied_explanation">error</string>
+    <string name="permission_rationale">Permisision Granted</string>
+    <string name="ok">Ok</string>
+    <string name="setting">setting</string>
+    <string name="settings">Setting</string>
+
+    <style name="setting">settings</style>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="geofence_unknown_error">Unknown error: the Geofence service is not available now.</string>
+    <string name="geofence_not_available">Geofence service is not available now. Go to Settings>Location>Mode and choose High accuracy.</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences.</string>
+    <string name="geofence_too_many_pending_intents">You have provided too many PendingIntents to the addGeofences() call.</string>
+    <string name="geofence_transition_invalid_type">Geofence transition error: invalid transition type %1$d</string>
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="cancel">cancel</string>
+    <string name="change_geofence">Change GeoFence</string>
+    <string name="error_permission_map">Error</string>
+</resources>
