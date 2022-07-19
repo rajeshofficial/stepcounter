@@ -39,7 +39,7 @@ import com.jetpack.stepcounter.alarm.AlarmReceiver
 import com.jetpack.stepcounter.alarm.ResetReceiver
 import com.jetpack.stepcounter.geofence.MapsActivity
 import com.jetpack.stepcounter.geofence.SetLocationActivity
-import com.jetpack.stepcounter.geofence.stepsCallback
+import com.jetpack.stepcounter.geofence.StepCallback
 import com.jetpack.stepcounter.prefrence.PreferenceHelper
 import com.jetpack.stepcounter.prefrence.PreferenceKeys
 import com.jetpack.stepcounter.worker.NotificationWorker
@@ -52,9 +52,9 @@ import java.util.concurrent.TimeUnit
 const val TAG = "StepCounter"
 
 
-class MainActivity : AppCompatActivity(), SensorEventListener, stepsCallback {
+class MainActivity : AppCompatActivity(), SensorEventListener, StepCallback {
 
-    lateinit var callback: stepsCallback
+    lateinit var callback: StepCallback
 
     // we have assigned sensorManger to nullable
     private var sensorManager: SensorManager? = null

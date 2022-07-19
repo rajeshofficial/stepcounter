@@ -1,6 +1,6 @@
 package com.jetpack.stepcounter.geofence
 
-interface stepsCallback {
+interface StepCallback {
     fun subscribeSteps(steps: Int)
 
 }
